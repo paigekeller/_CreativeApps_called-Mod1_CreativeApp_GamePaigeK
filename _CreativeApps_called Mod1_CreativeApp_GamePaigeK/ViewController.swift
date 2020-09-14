@@ -67,7 +67,7 @@ class ViewController: UIViewController {
         countdown.text = "3"
         countdown.backgroundColor = UIColor.white
     //constant
-        let secondsToDelay = 2.0
+        let secondsToDelay = 1.0
     //delay
         DispatchQueue.main.asyncAfter(deadline: .now() + secondsToDelay) {
             self.countdown.text = "2"
