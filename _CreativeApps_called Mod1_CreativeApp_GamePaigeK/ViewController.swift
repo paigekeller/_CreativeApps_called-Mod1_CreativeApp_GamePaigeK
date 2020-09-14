@@ -70,7 +70,7 @@ class ViewController: UIViewController {
         let secondsToDelay = 2.0
     //delay
         DispatchQueue.main.asyncAfter(deadline: .now() + secondsToDelay) {
-            self.countdown.text = "2"
+            self.countdown.text = "4"
             DispatchQueue.main.asyncAfter(deadline: .now() + secondsToDelay) {
                     self.countdown.text = "1"
                 DispatchQueue.main.asyncAfter(deadline: .now() + secondsToDelay) {
