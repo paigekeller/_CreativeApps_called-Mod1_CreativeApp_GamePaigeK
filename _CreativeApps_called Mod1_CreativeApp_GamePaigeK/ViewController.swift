@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var spinagain: UILabel!
     @IBOutlet weak var spinScore: UILabel!
     @IBOutlet weak var gameover: UILabel!
-    var num = 0
+    var num = 1
     var numSpin = 0
     
     override func viewDidLoad() {
